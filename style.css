@@ -1,0 +1,55 @@
+body {
+    background-color: #f5f7fa;
+    color: #222;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding: 1rem;
+}
+
+nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    color: #7a7a7a;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+#hero {
+    background-color: #0a525d;
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+}
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+#about{
+    max-width: 800px;
+    margin: 2rem auto;
+    line-height: 1.6;
+}
+
+#about{
+    text-align: center;
+    color:#333
+}
+
+footer {
+    background-color: #0a525d;
+    border-top: 1px solid #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
